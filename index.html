@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <!----------Aside---------->
+    <aside>
+        <!--Perfil-->
+        <div class="perfil">
+            <img src="imagens/foto.jpg" alt="Foto Perfil" class="foto">
+            <p class="nome">Jean Carlos Nesi</p>
+            <p class="cargo">Eng. de Software</p>
+        </div>
+
+        <!--Links-->
+        <div class="boxLinks">
+            <section class="links">
+                <img src="imagens/map-pin.png" alt="" class="icone"></img>
+                <a href="https://pt.wikipedia.org/wiki/Brasil" class="nomeLink" target=_blank>Brasil</a>
+            </section>
+            <section class="links">
+                <img src="imagens/briefcaseemprego.png" alt="" class="icone">
+                <a href="https://www.adalovelace.com.br/" class="nomeLink" target=_blank>Ada</a>
+            </section>
+            <section class="links">
+                <img src="imagens/github.png" alt="" class="icone">
+                <a href="https://github.com/JeanNesi" class="nomeLink" target=_blank>JeanNesi</a>
+            </section>
+            <section class="links">
+                <img src="imagens/linkedin.png" alt="" class="icone">
+                <a href="https://br.linkedin.com/in/jeancarlosnesi" class="nomeLink" target=_blank>jeancarlosnesi</a>
+            </section>
+            <section class="links">
+                <img src="imagens/twitter.png" alt="" class="icone">
+                <a href="https://twitter.com/" class="nomeLink" target=_blank>@JeanNesi</a>
+            </section>
+            <section class="links">
+                <img src="imagens/globe.png" alt="" class="icone">
+                <a href="https://www.google.com.br/" class="nomeLink" target=_blank>jeannesi.com.br</a>
+            </section>
+            <section class="links">
+                <img src="imagens/mail.png" alt="" class="icone">
+                <a href="mailto: jeannesi@gmail.com" class="nomeLink" target=_blank>jeannesi@gmail.com</a>
+            </section>
+        </div>
+        
+        <!--Tecnologias-->
+        <div class="tecnologias">
+            <h1 class="titulos">Tecnologias</h1>
+            <section class="linguagens">
+                <p class="code">JAVASCRIPT</p>
+                <p class="code">NODEJS</p>
+                <p class="code">GIT</p>
+                <p class="code">GITHUB</p>
+                <p class="code">HTML</p>
+                <p class="code">CSS</p>
+                <p class="code">PYTHON</p> 
+                <p class="code">C</p>       
+            </section>
+        </div>
+
+        <!--Experiências-->
+        <div class="boxExperiencias">
+            <h1 class="titulos"> Experiências</h1>
+
+            <section class="experiencias">
+                <ul>
+                    <li>Ada Lovelace</li>
+                    <p class="descricaoTopico">2022 - Estágio programação</p>
+                    <br>
+                    <!--<li>Rocketseat</li>
+                    <p class="descricaoTopico">2019 - Atualmente Community Experience</p>
+                    <br>
+                    <li>Rocketseat</li>
+                    <p class="descricaoTopico">2019 - Atualmente Community Experience</p>
+                    <br>
+                    <li>Rocketseat</li>
+                    <p class="descricaoTopico">2019 - Atualmente Community Experience</p>
+                    -->
+                </ul>
+            </section>
+        </div>
+
+        <!--Educação-->
+        <div class="boxEducacao">
+            <h1 class="titulos">Educação</h1>
+
+            <section class="educacao">
+                <ul>
+                    <li>IFSC</li>
+                    <p class="descricaoTopico">2019 - 2022 <br> Técnico em Mecatrônica</p>
+                    <br>
+                    <li>UNISATC</li>
+                    <p class="descricaoTopico">2022 - 2025 <br> Engenharia de Software</p>
+                    <!--<br>
+                    <li>Rocketseat</li>
+                    <p class="descricaoTopico">2019 - 2019 <br> GoStackt</p>
+                    <br>
+                    <li>Rocketseat</li>
+                    <p class="descricaoTopico">2019 - 2019 <br> GoStack</p>
+                    -->
+                </ul>
+            </section>
+
+
+
+        </div>
+
+    </aside>
+
+    <!----------Main---------->
+    <main>
+        <!--My projects-->
+        <div class="projetos">
+            <p class="titulos">My Projects</p>
+            <button onclick="Mudarestado('feedProjetos')" class="vejaTodos"><a class="estadoDisplay">Ocultar projetos</a></button>
+        </div>
+
+        <!--Feed-->
+        <div id="feedProjetos">
+            <div class="feed1">
+                <section class="tituloFeed1">
+                    <img src="imagens/folder.png" alt="" class="iconeFeed">
+                    <p>my-onix</p>
+                </section>
+
+                <p class="descricao">Consulte os códigos de erro que aparecem no painel do veículo Onix.</p>
+
+                <section class="rodapeFeed">
+                    <img src="imagens/Group 11.png" alt="">
+                    <img src="imagens/Group 10.png" alt="" class="javaScript">
+                </section>
+            </div>
+
+            <div class="feed2">
+                <section class="tituloFeed2">
+                    <img src="imagens/folder.png" alt="" class="iconeFeed">
+                    <p>my-onix</p>
+                </section>
+
+                <p class="descricao">Consulte os códigos de erro que aparecem no painel do veículo Onix.</p>
+
+                <section class="rodapeFeed">
+                    <img src="imagens/Group 11.png" alt="">
+                    <img src="imagens/Group 10.png" alt="" class="javaScript">
+                </section>
+            </div>
+        </div>
+
+        <!--Recent Posts-->
+        <div class="recentsPosts">
+            <h1 class="titulos">Recent Posts</h1>
+        </div>
+
+        <!--Post-->
+        <div class="post">
+            <img src="imagens/foto.jpg" alt="" class="fotoPost">
+
+            <div class="textoPost">
+                <section class="infoPost">
+                    <h1 class="tituloPost">Erro adb devices no Genymotion e Android Studio (React Native)</h1>
+                    <p class="subtituloPost">2 anos atrás</p>
+                </section>
+
+                <section class="descricaoPost">
+                    <p class="conteudoPost">Erro adb devices no Genymotion e Android Studio (React Native)</p>
+
+                    <section class="grupoHashtags">
+                        <p class="hashtag">#react-native</p>
+                        <p class="hashtag">#genimotion</p>
+                        <p class="hashtag">#genimotion</p>
+                        <p class="hashtag">#genimotion</p>
+                    </section>
+                </section>
+            </div>  
+        </div>
+    </main>
+</body>
+</html>
