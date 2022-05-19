@@ -49,8 +49,6 @@ main{
 
     width: 348px;
     height: 292px;
-    left: 40px;
-    top: 40px;
 
     background: #302F3D;
     border-radius: 20px;
@@ -100,8 +98,6 @@ main{
 
     width: 348px;
     height: 348px;
-    left: 40px;
-    top: 362px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -111,8 +107,7 @@ main{
 .icone{
     width: 24px;
     height: 24px;
-    left: 80px;
-    top: 656px;
+    
     align-items: center;
 }
 
@@ -150,8 +145,6 @@ main{
 
     width: 348px;
     height: 208px;
-    left: 40px;
-    top: 740px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -182,8 +175,6 @@ main{
 
     width: 86px;
     height: 24px;
-    left: 70px;
-    top: 816px;
 
     background: #CB92B1;
     border-radius: 30px;
@@ -199,8 +190,6 @@ main{
     
     width: 348px;
     height: 155px;
-    left: 40px;
-    top: 978px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -210,8 +199,6 @@ main{
 .experiencias{
     width: 175px;
     height: 243px;
-    left: 80px;
-    top: 1054px;
 }
 
 
@@ -244,8 +231,6 @@ li{
 
     width: 348px;
     height: 230px;
-    left: 40px;
-    top: 1357px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -255,8 +240,6 @@ li{
 .educacao{
     width: 175px;
     height: 246px;
-    left: 80px;
-    top: 1433px;
 }
 
 /*----------------Main-----------------*/
@@ -271,8 +254,6 @@ li{
 
     width: 952px;
     height: 86px;
-    left: 448px;
-    top: 40px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -307,8 +288,6 @@ li{
 
     width: 461px;
     height: 186px;
-    left: 448px;
-    top: 157px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -356,8 +335,6 @@ li{
 
     width: 952px;
     height: 86px;
-    left: 448px;
-    top: 373px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -374,8 +351,6 @@ li{
 
     width: 952px;
     height: 201px;
-    left: 448px;
-    top: 489px;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -385,8 +360,6 @@ li{
 .fotoPost{
     width: 128px;
     height: 128px;
-    left: 478px;
-    top: 520px;
     
     border-radius: 100px;
 }
@@ -402,7 +375,6 @@ li{
     gap:20px;
 
     font-family: 'Merriweather Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -421,8 +393,6 @@ li{
 
     width: 612px;
     height: 31px;
-    left: 626px;
-    top: 519px;
 }
 
 .subtituloPost{
@@ -452,8 +422,6 @@ li{
 
     width: 501px;
     height: 20px;
-    left: 626px;
-    top: 596px;
 }
 
 .infoPost{
